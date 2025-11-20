@@ -1,5 +1,4 @@
-<p style="text-align: center; font-size: 25px; font-weight:800">Питон-калькулятор</p>
-
+# Питон-калькулятор
 ---
 ## Eng.
 This project is designed to teach you the basics of Python.
@@ -8,7 +7,6 @@ This project is designed to teach you the basics of Python.
 ***
 ## Состав проекта
 * main.py
-
 ## Функционал
 * Были реализованы операции:
     * Вычитание (-)
