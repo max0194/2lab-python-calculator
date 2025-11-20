@@ -1,6 +1,6 @@
-## HTML-Calculator
+## Python-Calculator
 This project is designed to teach you the basics of Python.
-## HTML-Калькулятор
+## Питон-Калькулятор
 Данный проект предназначен для обучения основам Python.
 
 # Состав проекта
