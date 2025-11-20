@@ -6,6 +6,7 @@ def calculator():
     print("- - вычитание") 
     print("* - умножение")
     print("/ - деление")
+    print("% - деление с остатком")
     print("^ - возведение в степень")
     print("q - выход")
     
@@ -33,7 +34,14 @@ def calculator():
             elif operation == '*':
                 result = num1 * num2
                 print(f"Результат: {num1} * {num2} = {result}")
-                
+
+            elif operation == '%':
+                if num2 == 0:
+                    print("Ошибка: деление на ноль!")
+                else:
+                    result = num1 % num2
+                    print(f"Результат: {num1} % {num2} = {result}")
+
             elif operation == '/':
                 if num2 == 0:
                     print("Ошибка: деление на ноль!")
