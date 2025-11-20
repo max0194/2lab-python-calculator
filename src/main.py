@@ -5,13 +5,14 @@ def calculator():
     print("- - вычитание") 
     print("* - умножение")
     print("/ - деление")
+    print("^ - возведение в степень")
     print("q - выход")
     
     while True:
         try:
             # Ввод данных
             num1 = float(input("\nВведите первое число: "))
-            operation = input("Введите операцию (+, -, *, /): ")
+            operation = input("Введите операцию (+, -, *, /, ^): ")
             
             if operation == 'q':
                 print("Выход из калькулятора")
@@ -38,7 +39,9 @@ def calculator():
                 else:
                     result = num1 / num2
                     print(f"Результат: {num1} / {num2} = {result}")
-                    
+            elif operation == '^':
+                result = num1 ** num2
+                print(f"Результат: {num1}^{num2} = {result}")        
             else:
                 print("Неверная операция!")
                 
